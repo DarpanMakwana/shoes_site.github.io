@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white
+}
+.submit-box{
+    width: 370px;
+    box-shadow: 0px 0px 20px #000;
+    height: 270px;
+    text-align: center;
+    background-color: powderblue;
+    position: relative;
+    border-radius: 10px;
+    color: black;
+}
+.submit-box i{
+    font-size: 30px;
+    color: white;
+    padding: 9px 12px;
+   text-align: center;
+    border-radius: 50px;
+    background-color: green;
+    margin: 15px;
+}
+.submit-box h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.submit-box p{
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+@media(min-width:375px) and (max-width:500px){
+    .submit-box{
+        width: 300px;
+    }
+}

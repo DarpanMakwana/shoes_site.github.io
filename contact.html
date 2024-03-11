@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jqary.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+<!--nav-start-->
+<section class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">PLASHOE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon border-none" id="clickmenu" ></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" id="navLinks">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="men.html">MEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="women.html">WOMEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collection1.html">COLLECTION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lookbook.html">LOOKBOOK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sale.html">SALE</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-end-text d-flex">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="our-story.html">OUR STORY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                    <div class="header-icon">
+                        <a href="#" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bag-shopping"></i></a>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+                                        <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button> 
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        No products in the cart
+                                    </div>
+                                    <div><button type="button" class="btn w-100 mb-2 m-2 text-light fs-5" data-bs-dismiss="offcanvas"
+                                        aria-label="Close" style="background-color: #6e7051; border-radius: 0;">Continue Shopping</button></div>
+                                </div>
+                        <a href=""><i class="fa-solid fa-user"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+</section>
+<!--nav-end-->
+<!--contact-header-start-->
+<section class="container-fluid">
+    <header class="header">
+        <h2>Contact</h2>
+    </header>
+</section>
+
+<section class="container-fluid "> 
+    <div class="form-bg-clr ">
+        <div class="row ">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="sm-border-bottom">
+                    <div class="d-flex">
+                        <div class="contact-form-icon">
+                            <i class="fa-solid fa-mobile"></i>
+                        </div>
+                        <div class="contact-form-heading">
+                            <h5>Products & Order</h5>
+                        </div>
+                    </div>
+                    <div class="contact-form-span">
+                        <span>(+1) 123-456-7890</span><br>
+                        <span>available 24/7</span>
+                    </div>
+                </div>
+
+                <div class="mt-5 sm-border-bottom">
+                    <div class="d-flex">
+                        <div class="contact-form-icon">
+                            <i class="fa-solid fa-mobile"></i>
+                        </div>
+                        <div class="contact-form-heading">
+                            <h5>Info & Enquiries</h5>
+                        </div>
+                    </div>
+                    <div class="contact-form-span">
+                        <span>(+1) 123-456-7890</span><br>
+                        <span>available 24/7</span>
+                    </div>
+                </div>
+
+                <div class="mt-5 sm-border-bottom">
+                    <div class="d-flex">
+                        <div class="contact-form-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-form-heading">
+                            <h5>Store locator</h5>
+                        </div>
+                    </div>
+                    <div class="contact-form-span">
+                        <span>Find our retail near you</span>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <p class="fw-bold" style="letter-spacing: 2px;">STAY IN TOUCH</p>
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-8 col-md-8 col-12 position-relative">
+                <div class="contact-form">
+                    <form action="data-suscess.html" onsubmit="return sub()">
+                        <label for="#" class="fw-bold mb-2 text-secondary">Name:</label><br>
+                        <input type="text" id="name" name="name" class="w-100 p-2"><br><br>
+
+                        <label for="#" class="fw-bold mb-2 text-secondary">Email:</label><br>
+                        <input type="email" id="mail" name="mail" class="w-100 p-2"><br><br>
+
+                        <label for="#" class="fw-bold mb-2 text-secondary">Comment or Message:</label><br>
+                        <textarea name="msg" id="msg" cols="30" rows="7" class="w-100"></textarea><br><br>
+
+                        <button type="submit" class="form-submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-header-end-->
+
+<!--Accourding-sec-start-->
+    <section class="container section-mt">
+        <div class="according-heading text-center">
+            <h3 class="fs-1 fw-bold mb-4">Frequently Asked Questions</h3>
+            <p class="text-secondary fs-6 fw-bold">Purus amet scelerisque nisl nibh felis massa a enim gravida</p>
+        </div>
+        <hr class="w-75 mx-auto">
+
+        <div class="accordion w-50 mx-auto mt-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-bold text-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Quam ligula tristique sed leo nunc aenean amet
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bold text-secondary " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tortor eget a a tincidunt est viverra turpis
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fw-bold text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Quis cras urna diam id nec amet
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body fw-bold text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed fw-bold text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Id congue bibendum velit blandit massa elementum
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body fw-bold text-secondary">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+<!--Accourding-sec-end-->
+
+<!--Footer-bg-start-->
+<section class="container-fluid section-mt">
+    <div class="row">
+        <div class="footer-bg col-lg-12 col-md-12 col-sm-12">
+            <div class="footer-content">
+                <h2>Better for People & the Planet</h2>
+                <p>Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est dictum in vulputate</p>
+                <a href="men.html" style="text-decoration: none;"><button>SHOP FOR MEN</button></a>
+                    <a href="women.html" style="text-decoration: none;"><button>SHOP FOR WOMEN</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container mt-4">
+    <div class="row justify-content-around">
+        <div class="col-lg-4 col-md-4 col-sm-4 about-box">
+            <i class="fa-solid fa-lock"></i>
+            <span>Secure Payment</span>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 about-box">
+            <i class="fa-solid fa-truck"></i>
+            <span>Express Shipping</span>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 about-box">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span>Free Return
+            </span>
+        </div>
+    </div>
+</section>
+<!--Footer-bg-End-->
+
+<!--Footer-Start-->
+<footer class="section-mt">
+    <div class="container text-center text-md-left ">
+        <div class="row text-center text-md-left footer">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-3 fw-bold">plashoe</h5>
+                <p style="text-align: justify; line-height: 1.7; font-size: 17px; font-weight: 600;" class="sm-fs">Praesent eget tortor sit risus
+                    egestas nulla pharetra ornare quis bibendum est bibendum sapien proin nascetur</p>
+                <p class="footer-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-3 fw-bold sm-top">Shop</h5>
+                <p class="footer-shop">
+                    <a href="#">Shop Men</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Shop Women</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Lookbook</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Gift Card</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Sale</a>
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-3 fw-bold sm-top">About</h5>
+                <p class="footer-shop">
+                    <a href="#">Our Story</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Our Materials</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Our value</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Sustainability</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Manufacture</a>
+                </p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-3 fw-bold sm-top">Need Help?</h5>
+                <p class="footer-shop">
+                    <a href="#">FAQs</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Shipping & Returns</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Shoe Care</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Size Chart</a>
+                </p>
+                <p class="footer-shop">
+                    <a href="#">Contact Us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<section>
+    <div class="footer-copywrite text-center mt-4" style="background-color: #f1f1ef; padding: 25px 0px; text-align: center; justify-content: center; vertical-align: center;">
+        <p>© 2024 Recycled Shoe Store. Powered by Recycled Shoe Store.
+        </p>
+    </div>
+</section>
+<!--Footer-End-->
+
+<script src="js/main.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
